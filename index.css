@@ -172,6 +172,10 @@ footer .footer-content h3 {
   margin: 20px 0;
 }
 
+#fotoArkasi {
+  background-color: lightgray;
+}
+
 footer nav {
   display: flex;
 }
