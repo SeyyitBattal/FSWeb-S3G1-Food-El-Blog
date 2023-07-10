@@ -1,19 +1,42 @@
 /*======= Font rengini #3C373B yapan bir yeni bir universal selector yaratın*/
 body {
   color: #3c373b;
-  margin-left: 20px;
-  margin-right: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  max-width: 100%;
 }
-
 h1 {
   font-family: "Gaegu", cursive;
   margin: 20px 0;
   /*=======  Font size'ı 60px yapın ve text'i ortalayın(center) */
   font-size: 60px;
 }
+#FoodElBlog {
+  background-color: #e79947;
+}
 
-.ustBaslik {
-  font-family: "Gaegu", cursive;
+#azBosluk {
+  margin-bottom: 15px;
+}
+
+#yemek {
+  margin-bottom: 17rem;
+}
+
+#aperatif {
+  margin-bottom: 25rem;
+}
+
+#tatlilar {
+  margin-bottom: 10rem;
+}
+
+.solaKaydir {
+  float: left;
+}
+
+.sagaKaydir {
+  float: right;
 }
 
 .Navigation {
@@ -23,11 +46,24 @@ h1 {
 .Navigation p {
   border: 1px solid white;
   background-color: #e79947;
-  border-radius: 1rem;
-  width: 5rem;
+  border-radius: 10px;
+  width: 7rem;
   text-align: center;
   color: white;
   margin: auto;
+  font-family: "Gaegu", cursive;
+}
+#boslukYemeklerTatlilar {
+  margin-right: 3rem;
+}
+
+#SonKisim div {
+  font-family: "Gaegu", cursive;
+  text-align: center;
+  display: flex;
+  text-decoration: underline;
+  float: left;
+  width: 7rem;
 }
 
 h2,
@@ -92,7 +128,7 @@ img {
   text-decoration: none;
   margin-bottom: 20px;
   /*======= background property yaratın. Değerini #E79947 olarak atayınız.*/
-  background-color: #e79947;
+  background: #e79947;
 }
 
 .container header nav a:hover {
